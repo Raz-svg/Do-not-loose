@@ -13,6 +13,10 @@ A fun and simple paddle-ball game built with Pygame. Move the paddle to bounce t
 
 ---
 
+![Game Screenshot](build/Screenshot%20from%202025-04-05%2020-39-28.png)
+
+---
+
 ## 📦 Requirements
 
 - Python 3.7+
@@ -20,8 +24,10 @@ A fun and simple paddle-ball game built with Pygame. Move the paddle to bounce t
 
 ---
 
+## 🚀 How to Run the Game
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Raz-svg/Do-not-loose.git
+cd Do-not-loose
