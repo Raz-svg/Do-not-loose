@@ -10,12 +10,11 @@ rect = pygame.Rect(600, 0, 50, 50)
 rect1 = pygame.Rect(790, 790, 200, 10)
 speed = [random.randint(5, 10), random.randint(5, 10)]
 
-# Use default font (cross-platform compatible)
-font = pygame.font.Font(None, 74)
+font = pygame.font.SysFont('Times New Roman', 74)
 
 end_message = font.render('Game Over', True, (255, 220, 0))
-conti = font.render('Continue (↑)', True, (255, 220, 0))
-exit_game = font.render('Exit (↓)', True, (255, 220, 150))
+conti = font.render('Continue', True, (255, 220, 0))
+exit_game = font.render('Exit', True, (255, 220, 150))
 
 clock = pygame.time.Clock()
 n = 0
@@ -50,7 +49,6 @@ while running:
 
     keys = pygame.key.get_pressed()
 
-    # Paddle movement
     if keys[pygame.K_LEFT]:
         rect1.x -= 15
     if keys[pygame.K_RIGHT]:
